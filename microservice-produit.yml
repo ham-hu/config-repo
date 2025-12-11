@@ -21,7 +21,7 @@ spring:
 
 # Configuration pour simuler le timeout (pour tester Hystrix)
 produit:
-  simulate-timeout: true  # Changer à true pour simuler un timeout
+  simulate-timeout: false  # Changer à true pour simuler un timeout
   timeout-delay: 5000      # Délai en millisecondes (5 secondes)
 
 eureka:
