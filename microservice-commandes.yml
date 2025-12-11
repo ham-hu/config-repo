@@ -17,7 +17,7 @@ spring:
     show-sql: true
 
 mes-config-ms:
-  commandes-last: 10
+  commandes-last: 20
 
 management:
   endpoints:
